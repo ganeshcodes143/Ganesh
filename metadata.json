@@ -1,0 +1,6 @@
+{
+  "name": "Royal Ride — Luxury on Wheels | Shiva Car & Bike Rental",
+  "description": "Premium luxury car and bike rental platform by Shiva Car & Bike Rental offering 15 luxury cars and 15 bikes with instant booking, pricing calculator, and royal fusion styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

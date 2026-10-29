@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-main: #101010;
+    --color-bg-card: #191919;
+    --color-gold-antique: #D4AF6A;
+    --color-gold-light: #E8C786;
+    --color-cream: #F5F0E8;
+    --color-text-muted: #A6A6A6;
+    --color-border: #35312A;
+  }
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom luxury gold accents */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF0D0 0%, #E8C786 40%, #D4AF6A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #E8C786 0%, #D4AF6A 100%);
+}
+
+.gold-border {
+  border-color: #35312A;
+}
+
+.gold-border-highlight {
+  border-color: #D4AF6A;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+::-webkit-scrollbar-thumb {
+  background: #35312A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF6A;
+}
